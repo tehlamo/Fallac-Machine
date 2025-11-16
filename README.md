@@ -85,3 +85,4 @@ The JSON output contains:
 - The previous scikit‑learn training and detection scripts have been removed in favor of the OpenAI path.
 - Keep your API key out of source control. Scripts read `OPENAI_API_KEY` from the environment.
 - See `OPENAI_FINE_TUNE_GUIDE.md` for end‑to‑end steps (data prep, fine‑tune, detect).
+- See 'https://github.com/causalNLP/logical-fallacy' for the datasets used in the project.
