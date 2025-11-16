@@ -1,0 +1,24 @@
+# Enviroment Files
+FMenv/
+
+# Data Files
+data/
+
+# Secrets
+.apikey
+
+# Caches / Bytecode
+__pycache__/
+*.pyc
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+
+# Fine-tune artifacts
+openai_ft/
+
+# Local test/eval outputs
+openai_test_*.json
+openai_long_test_summary.json
+openai_eval_results.json

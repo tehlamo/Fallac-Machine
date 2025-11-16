@@ -1,0 +1,34 @@
+{
+  "input_text": "We reviewed the performance dashboards and saw typical seasonal variation. The data quality checks ran clean, and the sampling method is documented in the appendix. According to a celebrity entrepreneur, our strategy cannot fail, so we should move ahead immediately. Aside from that quote, every claim references source tables that we can independently verify next week.",
+  "total_sentences": 4,
+  "fallacies": [
+    {
+      "fallacy_type": "none",
+      "text": "We reviewed the performance dashboards and saw typical seasonal variation.",
+      "start_char": 0,
+      "end_char": 74,
+      "confidence": 0.9
+    },
+    {
+      "fallacy_type": "none",
+      "text": "The data quality checks ran clean, and the sampling method is documented in the appendix.",
+      "start_char": 75,
+      "end_char": 164,
+      "confidence": 0.9
+    },
+    {
+      "fallacy_type": "fallacy of credibility",
+      "text": "According to a celebrity entrepreneur, our strategy cannot fail, so we should move ahead immediately.",
+      "start_char": 165,
+      "end_char": 266,
+      "confidence": 0.95
+    },
+    {
+      "fallacy_type": "none",
+      "text": "Aside from that quote, every claim references source tables that we can independently verify next week.",
+      "start_char": 267,
+      "end_char": 370,
+      "confidence": 0.9
+    }
+  ]
+}
