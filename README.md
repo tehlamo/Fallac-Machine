@@ -95,4 +95,3 @@ The API provides a `/analyze` endpoint that accepts text input and returns falla
 - This project uses OpenAI supervised fine-tuning exclusively. Previous scikit‑learn implementations have been removed.
 - Keep your API key out of source control. Scripts read `OPENAI_API_KEY` from the environment.
 - See `OPENAI_FINE_TUNE_GUIDE.md` for end‑to‑end steps (data prep, fine‑tune, detect).
-- Model performance: Achieves 87.5% accuracy on sentence-level classification with sub-second inference time.
